@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Matthew Johnson</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+
+    <!-- Additional Styles CSS -->
+    <link rel="stylesheet" href="../css/additional-styles.css" type="text/css">
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll"  href="../index.html">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center" style="text-align: left">
+                    <!-- <hr class="light"> -->
+                    <h2 class="main-title">Care To Improve<h2>
+                    <h4>OBJECTIVES:</h4>
+                    <p class="text-faded description-text">
+                        The main objectives for this project was to determine nursing home and/or rehabilitation center deficiencies and how much they cost the providers annually, and subsequently staffing providers in terms of nursing homes and rehabilitation centers per state. Secondly, the next objective was to find ways to drastically reduce the most necessary deficiencies to save on expenditures and incentivize the nursing homes and rehabilitation centers to continuously hire contracted staff utilized through staffing providers. Finally, with the aforementioned established, the next step would be to reduce the pertinent deficiencies to improve the quality of care, which could have a direct correlation to the quality of life for the patients, helping them to live longer. (Pre-existing and extenuating patient health conditions notwithstanding)
+                    </p>
+                    <h4>DATA:</h4>
+                    <p class="text-faded description-text">
+                        All datasets were found on the <a href="https://data.cms.gov" class="data-link text-faded" target="_blank">https://data.cms.gov</a> website, which contained 20 different datasets in total. All of which contained over 1.9 million data points of both qualitative and quantitative data, pertaining to the relevant data fields, so it became evident during the exploratory data phase that it would be necessary to join multiple datasets, in order to obtain an accurate assessment of the data. I merged the Nursing Home Penalties data with the Nursing Home Citation Descriptions data, for the relevant deficiency descriptions, as well as, the Nursing Home Provider Info data, in order to determine the total amounts in fines, and staff turnover rates. I then utilized the Nursing Home State US Averages data for state health and fire safety deficiencies, total cost in fines per state, and also the states with residents that experience depressive symptoms.
+                    </p>
+                    <h4>APPROACH:</h4>
+                    <p class="text-faded description-text">
+                        As aforementioned, given the amount of data available, the concept to refine and truncate the data proved imperative. My next approach was to discern which key factors carry the most significant weight in determining the worst and most common deficiencies. In order to obtain accurate data analysis without sampling bias, I refined the project scope to the top outliers within a specific range of the top 10 - top 75 of the locations and provider companies that incurred the highest monetary fines and their deficiencies, as well as, the states in which such infractions occurred. Upon further analysis, it became evident that the leading factors of the hefty citations are the nursing homes being under equipped to handle and mitigate predictable circumstances, such as fire code regulations and common evacuation procedures.
+                        Moreover, the nursing staff are also commonly negligent to adhere to proper care for residents that suffer from dementia, CPR, improper nutrition, and overall cleanliness of the facilities. Elder abuse, such as theft, neglect, and wrongful use of a resident’s belongings or money was also a general common factor, resulting in high severity fines and penalties.
+                    </p>
+                   <a href="https://drive.google.com/file/d/1VyV4eWyxyf9gaEmpr6jS0NSc7agIgJIZ/view?usp=sharing" 
+                      class="btn btn-primary btn-xl page-scroll" 
+                      target="_blank">
+                      View Presentation
+                    </a>
+                   <a href="https://public.tableau.com/app/profile/matt.johnson4346/viz/TopNursingHomeRehabDeficieniesTotalFineAmountsByProviderState/TopTotalALL"
+                      class="btn btn-primary btn-xl page-scroll" 
+                      target="_blank">
+                      View Dashboard
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center image-section">
+                    <img src="../img/care-to-improve/top-10-nursing-home-&-rehab-deficiencies.png" 
+                         class="img-responsive project-image" 
+                         alt="">
+                    <p class="chart-image-text">
+                        Top 10 Nursing Home & Rehab Deficiencies
+                    </p>
+                    <img src="../img/care-to-improve/total-amount-of-fines-by-provider-over-500-dollars.png"
+                         class="img-responsive project-image"
+                         alt="">
+                    <p class="chart-image-text">
+                        Total Amount of Fines By Provider Over $500,000
+                    </p>
+                    <img src="../img/care-to-improve/total-health-deficiencies-by-state.png"
+                         class="img-responsive project-image"
+                         alt="">
+                    <p class="chart-image-text">
+                        Total Health Deficiencies By State
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-md-6 col-sm-2 text-center care-to-improve-image-section">
+                    <img src="../img/care-to-improve/percentage-of-residents-with-depression-by-state.png"
+                         class="img-responsive project-image"
+                         alt="">
+                    <p class="chart-image-text">
+                        Percentage of Residents with Depression by State
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-2 text-center care-to-improve-image-section">
+                    <img src="../img/care-to-improve/total-fine-amounts-per-state.png"
+                         class="img-responsive project-image"
+                         alt="">
+                    <p class="chart-image-text">
+                        Total Fine Amounts Per State
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-2 text-center care-to-improve-image-section">
+                    <img src="../img/care-to-improve/health-deficiencies-by-state-vs-resident-depression.png"
+                         class="img-responsive project-image"
+                         alt="">
+                    <p class="chart-image-text">
+                        Health Deficiencies By State vs Resident Depression
+                    </p>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row" class="call-to-action">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-2 col-lg-offset-3 text-center">
+                    <a href="https://github.com/MatthewJ333" 
+                       class="fa fa-github fa-3x wow bounceIn footer-icon"
+                       target="_blank">
+                    </a>
+                </div>
+                <div class="col-lg-2  text-center">
+                    <a href="https://www.linkedin.com/in/matt-johnson-39173529b/"
+                       class="fa fa-linkedin fa-3x wow bounceIn footer-icon"
+                       target="_blank">
+                    </a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="mailto:matthewjohnson.analyst@gmail.com" 
+                       class="fa fa-envelope-o fa-3x wow bounceIn footer-icon"
+                       target="_blank"
+                       data-wow-delay=".1s">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+
+</body>
+
+</html>

@@ -25,8 +25,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/creative.css" type="text/css">
-
-    <!-- Additional Styles CSS -->
     <link rel="stylesheet" href="../css/additional-styles.css" type="text/css">
 
 </head>
@@ -35,7 +33,6 @@
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -46,7 +43,6 @@
                 <a class="navbar-brand page-scroll"  href="../index.html">Home</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -54,50 +50,49 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-center" style="text-align: left">
-                    <!-- <hr class="light"> -->
-                    <h2 style="font-style: italic">Your Next Hit<h2>
+                <div class="col-lg-8 text-center content-section">
+                    <h2 class="main-title">Your Next Hit<h2>
                     <h4>OBJECTIVE:</h4>
-                    <p class="text-faded" style="font-size: small">
-                      The overall objective of this project was to identify the key factors for success in creating a profitable Hollywood film, and to develop actionable insights that can guide industry stakeholders, such as production companies, in optimizing their strategies for financial success in the ever-burgeoning dynamic contemporary film landscape.
+                    <p class="text-faded">
+                        The overall objective of this project was to identify the key factors for success in creating a profitable Hollywood film, and to develop actionable insights that can guide industry stakeholders, such as production companies, in optimizing their strategies for financial success in the ever-burgeoning dynamic contemporary film landscape.
                     </p>
                     <h4>DATA:</h4>
-                    <p class="text-faded" style="font-size: small">
-                      The dataset was obtained from Kaggle, which contained 9000 rows of qualitative and quantitative data, spanning one hundred and twelve years (1915-2027), with data corresponding to movie details such as titles, budgets, genres, runtime, and motion picture ratings.
+                    <p class="text-faded">
+                        The dataset was obtained from Kaggle, which contained 9000 rows of qualitative and quantitative data, spanning one hundred and twelve years (1915-2027), with data corresponding to movie details such as titles, budgets, genres, runtime, and motion picture ratings.
                     </p>
-                    <p class="text-faded" style="font-size: small">
+                    <p class="text-faded">
                         During our exploratory analysis phase, we found some fascinating results. For example, in order to have an accurate analysis of the data without sampling bias, we discovered that a truncated amount of data would prove more accurate, so we refined our project scope to the past decade (2013-2023). For further accuracy retention, we used data with only USD currency, and categorized the findings into low, medium and high budgets, to keep it more relevant and precise. After additional analysis and discussion, we determined that a more refined scope to no more than a maximum of 100 of the top performing films per budget category would prove to be most truthful.
                     </p>
                     <h4>APPROACH:</h4>
-                    <p class="text-faded" style="font-size: small">
-                      As previously mentioned earlier, given the amount of data, our initial ideas to refine and truncate the data proved necessary. Our next approach was to discern which key factors play the most significant roles in determining what makes a film successful in each budget category. Upon further analysis, we found that our dataset had several outliers that we deduced to be the most effective attributes that contribute to the highest profits. The length (runtime), the genre, the writers and directors of the films proved to be the strongest factors, so our focus centered on that analysis. Lastly, our generic approach was to visualize the data to understand it even better. This would give us information about any other outliers that also prove significant. Apart from data cleaning, the other affordance of the visualizations is the correlation we can derive between differing film ratings and the highest profits.
+                    <p class="text-faded">
+                        As previously mentioned earlier, given the amount of data, our initial ideas to refine and truncate the data proved necessary. Our next approach was to discern which key factors play the most significant roles in determining what makes a film successful in each budget category. Upon further analysis, we found that our dataset had several outliers that we deduced to be the most effective attributes that contribute to the highest profits. The length (runtime), the genre, the writers and directors of the films proved to be the strongest factors, so our focus centered on that analysis. Lastly, our generic approach was to visualize the data to understand it even better. This would give us information about any other outliers that also prove significant. Apart from data cleaning, the other affordance of the visualizations is the correlation we can derive between differing film ratings and the highest profits.
                     </p>
                     
-                    <a href="https://drive.google.com/file/d/1U_DxyINxSOfpxpYcfnG7Pah15cY30Zk8/view?usp=sharing"
-                      class="btn btn-primary btn-xl page-scroll" 
-                      target="_blank">
-                      View Presentation
-                    </a>
-                    <a href="https://public.tableau.com/app/profile/matt.johnson4346/viz/Top10FilmsTop8Directors2013-2023/Top10FilmsTop8Directors"
-                      class="btn btn-primary btn-xl page-scroll" 
-                      target="_blank">
-                      Top High Budget Films & Directors
-                    </a>
-                    <a href="https://public.tableau.com/app/profile/matt.johnson4346/viz/HighBudgetFilmAnalysisbyRatingsProfitRuntimes2013-2023/HighBudgetFilmDashboard"
-                      class="btn btn-primary btn-xl page-scroll" 
-                      target="_blank">
-                      High Budget Ratings, Profit & Runtimes
-                    </a>
+                    <div class="button-container">
+                        <a href="https://drive.google.com/file/d/1U_DxyINxSOfpxpYcfnG7Pah15cY30Zk8/view?usp=sharing"
+                           class="btn btn-primary btn-xl page-scroll" 
+                           target="_blank">
+                            View Presentation
+                        </a>
+                        <a href="https://public.tableau.com/app/profile/matt.johnson4346/viz/Top10FilmsTop8Directors2013-2023/Top10FilmsTop8Directors"
+                           class="btn btn-primary btn-xl page-scroll" 
+                           target="_blank">
+                            Top High Budget Films & Directors
+                        </a>
+                        <a href="https://public.tableau.com/app/profile/matt.johnson4346/viz/HighBudgetFilmAnalysisbyRatingsProfitRuntimes2013-2023/HighBudgetFilmDashboard"
+                           class="btn btn-primary btn-xl page-scroll" 
+                           target="_blank">
+                            High Budget Ratings, Profit & Runtimes
+                        </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 text-center" style="padding-top: 100px">
+                <div class="col-lg-4 text-center image-section">
                     <img src="../img/your-next-hit/bar-with-bubble-charts.png" 
                          class="img-responsive project-image" 
                          alt=""
@@ -148,11 +143,7 @@
             </div>
         </div>
     </section>
-
-    <!-- jQuery -->
     <script src="../js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->

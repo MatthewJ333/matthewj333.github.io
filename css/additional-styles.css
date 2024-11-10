@@ -1,3 +1,19 @@
+.container {
+    padding-top: 20px;
+}
+
+.container-button {
+   width :95%;
+}
+
+.text-faded {
+    font-size: small;
+}
+
+.description-text {
+    font-size: small;
+}
+
 .landing-description {
     font-size: 18px !important;
     margin-bottom: 25px !important;
@@ -27,6 +43,41 @@ section#about {
 
 .about-description {
     font-size: 16px;
+}
+
+.info-viz-engineer {
+    text-align: center;
+}
+
+.text-muted {
+    font-size: small;
+}
+
+.description-section {
+    height: 100%;
+}
+
+.main-title {
+    font-style: italic;
+}
+
+.image-section {
+    padding-top: 100px;
+}
+
+.about-section {
+   text-align: left;
+}
+
+.care-to-improve-image-section {
+    padding-right: 10px !important;
+}
+    
+@media (max-width: 582px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 670px) {
